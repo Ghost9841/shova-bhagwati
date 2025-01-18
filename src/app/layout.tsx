@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} antialiased min-h-screen flex flex-col`}>
         <Navbar />
-        <main className="flex-1">
+        <main className="flex-1 mx-20">
           {children}
         </main>
         <Footer />

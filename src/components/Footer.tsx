@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 export default function Footer() {
   return (
     <footer className="bg-[#0A1233] text-white py-16">
-      <div className="container px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
+      <div className="container px-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12">
         {/* Company Info */}
         <div className="space-y-6">
           <div className="flex items-center gap-2">

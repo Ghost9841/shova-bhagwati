@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import hero  from "./assets/hero.png";
 
 export default function Hero() {
   return (
@@ -11,7 +12,7 @@ export default function Hero() {
       </div>
 
       <div className="container relative mx-auto px-4 py-16 md:py-24">
-        <div className="grid gap-8 md:grid-cols-2 items-center">
+        <div className="grid gap-22 md:grid-cols-2 items-center">
           {/* Left Content */}
           <div className="space-y-6">
             <div className="flex items-center gap-2 text-red-500 font-medium">
@@ -33,14 +34,14 @@ export default function Hero() {
 
           {/* Right Image */}
           <div className="relative">
-            <div className="absolute inset-0 bg-pink-50 rounded-full transform scale-[1.3]" />
+            <div className="absolute inset-10 bg-pink-50 col-span-2 gap-x-1 mx-10 ml-3  rounded-full transform scale-[1]" />
             <div className="relative">
               <Image
-                src="/placeholder.svg"
+                src={hero}
                 alt="Business Professional"
-                width={600}
-                height={600}
-                className="relative z-10"
+                width={400}
+                height={400}
+                className="relative col-span-5 space-x-5"
               />
             </div>
           </div>

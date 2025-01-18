@@ -49,8 +49,8 @@ const Navbar = () => {
   )
 
   return (
-    <header className="w-full border-b mx-auto sticky top-0 bg-white z-50">
-      <div className="container flex h-16 items-center justify-between px-4">
+    <header className="w-full border-b sticky top-0 bg-white z-50 gap-2">
+      <div className="container flex h-16 items-center justify-between px-10">
         <Link href="/" className="flex items-center gap-2">
           <CircleIcon className="h-6 w-6 fill-red-500 text-red-500"/>
           <span className="text-xl font-semibold">Shova Bhagwati</span>
