@@ -1,30 +1,30 @@
-import { Search, Scissors, Code, ClipboardCheck } from 'lucide-react'
+import { Search, ShieldCheck,  UserRoundSearch, MessageCircleReply } from 'lucide-react'
 
 export default function ProcessSection() {
   const steps = [
     {
       icon: Search,
       number: '01',
-      title: 'Research',
-      description: 'It is a long established fact that a reader will be distra by the readable content of a page.'
+      title: 'Identify',
+      description: 'Recognize and understand potential security threats and vulnerabilities.'
     },
     {
-      icon: Scissors,
+      icon: ShieldCheck,
       number: '02',
-      title: 'Design',
-      description: 'It is a long established fact that a reader will be distra by the readable content of a page.'
+      title: 'Protect',
+      description: 'Implement safeguards to minimize or prevent the impact of identified risks.'
     },
     {
-      icon: Code,
+      icon: UserRoundSearch,
       number: '03',
-      title: 'Develope',
-      description: 'It is a long established fact that a reader will be distra by the readable content of a page.'
+      title: 'Detect',
+      description: 'Monitor systems and networks continuously to identify any unusual or suspicious activity.'
     },
     {
-      icon: ClipboardCheck,
+      icon: MessageCircleReply,
       number: '04',
-      title: 'Test',
-      description: 'It is a long established fact that a reader will be distra by the readable content of a page.'
+      title: 'Respond',
+      description: 'Take immediate action to mitigate the impact of a security incident.'
     }
   ]
 
@@ -53,7 +53,7 @@ export default function ProcessSection() {
                 <div className="space-y-4">
                   <div className="flex justify-between items-start">
                     <div className="p-3 bg-red-50 rounded-lg">
-                      <Icon className="h-6 w-6 text-red-500" />
+                      <Icon className="h-6 w-6 text-red-500 " />
                     </div>
                     <span className="text-3xl font-bold text-gray-200">
                       {step.number}

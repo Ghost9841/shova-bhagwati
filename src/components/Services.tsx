@@ -1,37 +1,53 @@
-import { Monitor, Palette, Cloud, Smartphone, Database, Mail } from 'lucide-react'
+import {ShieldCheck, Camera, Siren,PersonStanding, GroupIcon, CheckCheck, Radiation, House, CircleCheckBig,   } from 'lucide-react'
 
 const services = [
   {
-    icon: Monitor,
-    title: 'Web Design / Development',
-    description: 'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout.'
+    icon: ShieldCheck,
+    title: 'Access Control Management',
+    description: 'Ensuring secure entry and exit by managing access points with ID checks, key cards, and biometric systems.'
   },
   {
-    icon: Palette,
-    title: 'UI/UX Design',
-    description: 'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout.'
+    icon: Camera,
+    title: 'Surveillance and Monitoring',
+    description: 'Monitoring premises using CCTV cameras and conducting regular patrols to detect and prevent suspicious activity.'
   },
   {
-    icon: Cloud,
-    title: 'Website Migration',
-    description: 'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout.'
+    icon: Siren,
+    title: 'Emergency Response',
+    description: 'Responding to incidents such as fire alarms, medical emergencies, or security breaches to ensure safety.'
   },
   {
-    icon: Smartphone,
-    title: 'App Development',
-    description: 'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout.'
+    icon: PersonStanding,
+    title: 'Personal Protection',
+    description: 'Providing close protection for individuals, ensuring their safety during travel, events, or public appearances.'
   },
   {
-    icon: Database,
-    title: 'HubSpot Integration',
-    description: 'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout.'
+    icon: GroupIcon,
+    title: 'Event Security Management',
+    description: 'Managing safety and crowd control at events, preventing disruptions, and maintaining order.'
   },
   {
-    icon: Mail,
-    title: 'Email Marketing',
-    description: 'It is a long established fact that a reader will be distra by the readable content of a page when looking at its layout, when looking at its layout.'
+    icon: CheckCheck,
+    title: 'Risk Assessment and Mitigation',
+    description: 'Identifying vulnerabilities and conducting security audits to minimize risks and strengthen safety measures.'
+  },
+  {
+    icon: Radiation,
+    title: 'Security Provider Services',
+    description: 'Offering professional security guards to ensure safety for residential, commercial, and industrial properties.'
+  },
+  {
+    icon: House,
+    title: 'Housekeeping Services',
+    description: 'Providing cleaning and maintenance services to keep facilities tidy, organized, and presentable.'
+  },
+  {
+    icon: CircleCheckBig,
+    title: 'Cleaner Services',
+    description: 'Delivering professional cleaning services for homes, offices, and public spaces with high standards of hygiene.'
   }
-]
+];
+
 
 export default function Services() {
   return (

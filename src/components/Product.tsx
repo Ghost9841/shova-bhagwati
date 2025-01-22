@@ -25,35 +25,40 @@ export default function ProductSection() {
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A1233] leading-tight">
-              We Develope Product That People Love to Use.
+              We Build Secure Solutions That Protect What Matters Most.
             </h2>
 
             <p className="text-gray-600">
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed. Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+              In today’s digital age, safeguarding your data and systems is more critical than ever.
+              Our security solutions ensure robust protection against emerging threats, enabling peace of mind and uninterrupted operations.
+              Trust in our expertise to defend your organization from vulnerabilities and cyber risks.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-6">
-              <div className="flex items-start gap-4">
+
+            <div className="grid sm:grid-cols-2 gap-6 ">
+              <div className="flex items-start gap-4 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="p-3 bg-red-50 rounded-lg">
                   <Lightbulb className="h-6 w-6 text-red-500" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-[#0A1233] mb-2">Our Vision</h3>
                   <p className="text-gray-600 text-sm">
-                    It is a long esta-blished fact that
+                    Dedicated to providing reliable and professional security services to ensure your safety and peace of mind.
                   </p>
+
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-4 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                 <div className="p-3 bg-red-50 rounded-lg">
                   <Trophy className="h-6 w-6 text-red-500" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-[#0A1233] mb-2">Our Goal</h3>
                   <p className="text-gray-600 text-sm">
-                    It is a long esta-blished fact that
+                    To provide top-notch security services that prioritize safety, professionalism, and trust for every client we serve.
                   </p>
+
                 </div>
               </div>
             </div>

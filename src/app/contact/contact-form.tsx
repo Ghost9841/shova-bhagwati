@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function ContactForm() {
   return (
-    <section className="py-16 md:py-24 bg-pink-50">
+    <section className="py-16 md:py-24 bg-pink-100 mb-20">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 text-red-500 font-medium">

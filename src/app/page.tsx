@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import GetinTouch from "@/components/GetinTouch";
 import Hero from "@/components/HeroSection";
 import ProcessSection from "@/components/Process";
 import ProductSection from "@/components/Product";
@@ -17,6 +18,7 @@ export default function Home() {
       <Services/>
       <Team/>
       <Testimonials/>
+      <GetinTouch/>
     </div>
   );
 }
