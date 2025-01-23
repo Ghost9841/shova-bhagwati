@@ -11,7 +11,7 @@ export default function BlogPage() {
       <QuoteSection
         name="Stay Updated with Insights and Stories from Our Experts"
         link="Read Our Blogs"
-        hrefs="/blog"
+        hrefs="/blog/1"
       />
 
     </>
