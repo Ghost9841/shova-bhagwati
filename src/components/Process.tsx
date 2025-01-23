@@ -43,7 +43,7 @@ export default function ProcessSection() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {steps.map((step, index) => {
+          {steps.map((step,) => {
             const Icon = step.icon
             return (
               <div 

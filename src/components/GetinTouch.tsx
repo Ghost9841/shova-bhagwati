@@ -13,7 +13,7 @@ export default function GetinTouch() {
             <span>Get In Touch</span>
             <span>\</span>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-white mt-2">Hey! Let's Talk</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mt-2">Hey! Let&apos;s Talk</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">

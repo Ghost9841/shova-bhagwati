@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { CircleIcon, Contact, LocateIcon, MapPin, Menu, X } from 'lucide-react'
+import { CircleIcon, Contact,  MapPin, Menu, X } from 'lucide-react'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -43,7 +43,7 @@ const Navbar = () => {
         </Link>
       </Button>
       <Button className="bg-red-500 text-white hover:bg-red-600">
-        <Link href="/location" className='flex items-center gap-2'><MapPin /><span>Location</span></Link>
+        <Link href="/" className='flex items-center gap-2'><MapPin /><span>Location</span></Link>
       </Button>
     </>
   )
