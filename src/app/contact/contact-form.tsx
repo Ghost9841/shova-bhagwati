@@ -14,7 +14,7 @@ export default function ContactForm() {
             <span>\</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A1233] mt-2">
-            Hey! Let's Talk
+            Hey! Let&apos;s Talk
           </h2>
         </div>
 
