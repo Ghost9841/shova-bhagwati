@@ -37,19 +37,20 @@ const posts = [
 ]
 
 interface BlogSlugProps {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }
 
 export default async function BlogPost({ params }: BlogSlugProps) {
   // In a real app, you'd fetch this data from an API
-  const post = posts.find((p) => p.id === Number.parseInt(params.id))
+  const { id } = await params;
+  const post = posts.find((p) => p.id === Number.parseInt(id))
 
   if (!post) {
     return <div>Post not found</div>
   }
 
   // Related posts (excluding current post)
-  const relatedPosts = posts.filter((p) => p.id !== Number.parseInt(params.id)).slice(0, 2)
+  const relatedPosts = posts.filter((p) => p.id !== Number.parseInt(id)).slice(0, 2)
 
   return (
     <article className="min-h-screen bg-gray-50">
