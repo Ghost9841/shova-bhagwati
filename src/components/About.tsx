@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Phone } from 'lucide-react'
+import security from '@/components/assets/security.jpg'
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
           <div className="absolute inset-0 bg-gradient-to-r from-pink-50 to-blue-50 rounded-2xl" />
           <div className="relative">
             <Image
-              src="/placeholder.svg"
+              src={security}
               alt="Team of professionals working together"
               width={600}
               height={400}

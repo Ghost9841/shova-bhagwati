@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Lightbulb, Trophy } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import houseCleaning from '@/components/assets/house cleaning.jpg'
 
 export default function ProductSection() {
   return (
@@ -9,7 +10,7 @@ export default function ProductSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <Image
-              src="/placeholder.svg"
+              src={houseCleaning}
               alt="Team collaboration"
               width={600}
               height={400}
