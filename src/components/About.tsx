@@ -16,7 +16,7 @@ export default function About() {
               alt="Team of professionals working together"
               width={600}
               height={400}
-              className="rounded-2xl relative z-10"
+              className="rounded-2xl relative z-10 md:flex hidden md:mt-4"
             />
             {/* Hexagon Pattern Overlay */}
             <div className="absolute inset-0 bg-[url('/hexagon-pattern.svg')] bg-repeat opacity-20 z-0 rounded-2xl" />

@@ -1,3 +1,4 @@
+import TransitionEffect from '@/components/TransitionEffect'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -40,6 +41,7 @@ const posts = [
 export default function BlogGrid() {
   return (
     <section className="py-16 md:py-24 bg-gray-100">
+      <TransitionEffect/>
       <div className="container px-4 mx-auto">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 text-red-500 font-medium">

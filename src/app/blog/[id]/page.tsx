@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { CalendarDays, Clock, ArrowLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import TransitionEffect from "@/components/TransitionEffect"
 
 // This would typically come from your data source
 const posts = [
@@ -55,6 +56,7 @@ export default async function BlogPost({ params }: BlogSlugProps) {
   return (
     <article className="min-h-screen bg-gray-50">
       {/* Hero Section */}
+      <TransitionEffect/>
       <div className="bg-[#0A1233] text-white py-16 md:py-24">
         <div className="container px-4 mx-auto">
           <Button variant="ghost" className="text-white mb-8 hover:text-white" asChild>

@@ -4,6 +4,7 @@ import "./globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import logo  from "@/components/assets/logo.jpg"
+import TransitionEffect from "@/components/TransitionEffect"
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
         <link rel="icon" href={logo.src} />
       </head>
       <body className={`${poppins.className} antialiased min-h-screen flex flex-col`}>
+          <TransitionEffect />
         <Navbar />
         <main className="flex-1 mx-20">
           {children}

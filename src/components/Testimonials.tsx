@@ -7,24 +7,24 @@ import { cn } from "@/lib/utils"
 
 const testimonials = [
   {
-    content: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.',
-    author: 'Samuel Karl',
-    role: 'CEO',
+    content: 'This product has completely transformed the way I work. Highly recommend it to anyone looking for a reliable solution.',
+    author: 'Jane Doe',
+    role: 'Marketing Manager',
     image: '/placeholder.svg'
   },
   {
-    content: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.',
-    author: 'Daria Linney',
-    role: 'CEO',
+    content: 'Exceptional service and support! I was able to get up and running in no time. Kudos to the team.',
+    author: 'Mike Brown',
+    role: 'Product Designer',
     image: '/placeholder.svg'
   },
   {
-    content: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.',
-    author: 'John Smith',
-    role: 'CTO',
+    content: 'The attention to detail and the quality of the product is simply amazing. Would give it a five-star rating!',
+    author: 'Alice Johnson',
+    role: 'Software Engineer',
     image: '/placeholder.svg'
   }
-]
+];
 
 export default function Testimonials() {
   const [currentIndex, setCurrentIndex] = useState(0)
